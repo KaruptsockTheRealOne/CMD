@@ -37,9 +37,8 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 REM Run shell as admin (example) - put here code as you like
 
 echo Copy File From Server to PC
-'example'
-set From=\\Servername\install$\Apps\OpenJDK32
-set Destination=C:\Temp
+set From=\\Servername\install$\Apps\Appfolder
+set Destination=C:\Folder
 set opts=/E /V /ETA /A-:R
 RoboCopy %From% %Destination% %opts%
 Pause
