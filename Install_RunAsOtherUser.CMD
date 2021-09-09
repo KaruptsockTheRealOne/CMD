@@ -62,7 +62,7 @@ Pause
 xcopy /s /e C:\Temp\Icon.ico C:\
 
 net use m: /DELETE /Y
-net use m: \\fpcolo\install$\Apps\OpenJDK32
+net use m: \\servername\install$\Apps\OpenJDK32
 copy "m:\GDSR.lnk" C:\users\public\Desktop\
 net use m: /DELETE /Y
 
